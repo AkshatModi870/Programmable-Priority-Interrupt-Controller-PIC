@@ -6,6 +6,7 @@ module priority_encoder (
     output reg        any_req
 );
 
+
     always @(*) begin
         any_req = 1'b1;
         if      (req[0]) highest = 3'd0;
