@@ -157,7 +157,7 @@ The printed lines like `CPU Received Vector: 0x42` tell you which device was ack
 
 The `$monitor` line shows you the current state at each time step.
 
-## This project ables you to understand...
+## This project ables you to understand
 
 By building this PIC, you can demonstrate:
 - How to design a finite state machine in Verilog.
