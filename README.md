@@ -47,6 +47,9 @@ After the CPU finishes handling the device, it sends an **EOI** (End of Interrup
 
 (5) README.md file – this file.
 
+(6) outputs folder contains:
+    - screenshots of outputs after executing the "vvp sim/pic_sim.vvp" command in the code editors like vscode.
+
 ## How to run this project on your own laptop (Windows)
 
 You do not need any special hardware. You will use free software that simulates the electronic circuit on your computer.
@@ -134,10 +137,6 @@ GTKWave will open.
 - When an irq bit (e.g., irq[2]) goes high, the IRR bit 2 becomes 1, and then int_req goes high.
 - When inta goes high, the data_bus shows a number (e.g., 0x42 if base is 0x40 and device is 2). Also the ISR bit 2 becomes 1 and IRR bit 2 becomes 0.
 - Later, an EOI (command 0x20) clears the ISR bit.
-
-### Step 7 – Take a screenshot for your report
-
-If you need to show the results to someone (like a professor), in GTKWave go to **File → Write Snapshot → PNG** and save the image. You can also take a screenshot of the terminal output.
 
 ## Understanding the testbench output
 
