@@ -1,1 +1,39 @@
+# Simulation outputs
+*.vcd
+*.vvp
+*.vpd
+*.lxt
+*.lxt2
+*.fst
 
+# Compiled simulation executables
+sim/
+*.out
+*.exe
+*.obj
+
+# Icarus Verilog intermediate files
+*.o
+*.o.*
+
+# GTKWave temporary files
+.gtkw
+.gtkw.*
+*.gtkw
+
+# Editor and OS junk files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional – ignore if you don't want to share)
+.vscode/
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.orig
