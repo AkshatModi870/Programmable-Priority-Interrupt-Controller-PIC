@@ -16,6 +16,7 @@ module tb_programmable_pic;
     reg  [7:0] irq;
 
     assign data_bus = tb_drive_bus ? tb_data_out : 8'bz;
+    
 
     programmable_pic dut (
         .clk(clk),
