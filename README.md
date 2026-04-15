@@ -34,15 +34,18 @@ After the CPU finishes handling the device, it sends an **EOI** (End of Interrup
 
 ## What files are in this repository?
 
-(1) design folder contains :
- - priority_encoder.v – finds the highest priority device among those requesting.
- - programmable_pic.v – the main PIC circuit.
-(2) tb folder contains :
- - tb_programmable_pic.v – a testbench that pretends to be a CPU and some devices.
-(3) sim – folder for simulation outputs (created when you run the simulation) :
-(4) .gitignore file – tells Git which files not to upload.
-(5) README.md file – this file.
+(1) design folder contains:
+    - priority_encoder.v – finds the highest priority device among those requesting.
+    - programmable_pic.v – the main PIC circuit.
 
+(2) tb folder contains:
+    - tb_programmable_pic.v – a testbench that pretends to be a CPU and some devices.
+
+(3) sim – folder for simulation outputs (created when you run the simulation).
+
+(4) .gitignore file – tells Git which files not to upload.
+
+(5) README.md file – this file.
 
 ## How to run this project on your own laptop (Windows)
 
