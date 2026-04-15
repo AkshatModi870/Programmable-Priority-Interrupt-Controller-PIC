@@ -91,7 +91,9 @@ cd Desktop\PIC_Project
 
 Type this command and press Enter:
 
+```bash
 iverilog -o sim/pic_sim.vvp design/priority_encoder.v design/programmable_pic.v tb/tb_programmable_pic.v
+```
 
 If you see no error messages, the compilation succeeded. If you see "No such file or directory", you are not in the correct folder – go back to Step 3.
 
@@ -111,7 +113,9 @@ NOTE - The output which you will see after executing the above is attached in th
 
 Now type:
 
+```bash
 gtkwave wave.vcd
+```
 
 GTKWave will open.
 
