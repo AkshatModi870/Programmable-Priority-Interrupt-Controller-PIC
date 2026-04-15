@@ -47,9 +47,7 @@ After the CPU finishes handling the device, it sends an **EOI** (End of Interrup
 
 (5) README.md file – this file.
 
-(6) outputs folder contains:
-
-    - screenshots of outputs after executing the "vvp sim/pic_sim.vvp" command in the code editors like vscode.
+(6) outputs folder contains screenshots of outputs after executing the "vvp sim/pic_sim.vvp" command in the code editors like vscode.
 
 ## How to run this project on your own laptop (Windows)
 
@@ -101,7 +99,9 @@ If you see no error messages, the compilation succeeded. If you see "No such fil
 
 Type:
 
+```bash
 vvp sim/pic_sim.vvp
+```
 
 The testbench sends random interrupt requests, and the PIC responds. The simulation runs for a short time and then finishes.
 
