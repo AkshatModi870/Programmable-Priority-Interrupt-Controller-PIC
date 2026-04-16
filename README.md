@@ -49,7 +49,7 @@ After the CPU finishes handling the device, it sends an **EOI** (End of Interrup
 
 (6) outputs folder contains screenshots of outputs after executing the "vvp sim/pic_sim.vvp" command in the code editors like vscode.
 
-## How to run this project on your own laptop (Windows)
+## How to run this project on your own laptop (Windows)?
 
 You do not need any special hardware. You will use free software that simulates the electronic circuit on your computer.
 
